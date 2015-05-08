@@ -24,10 +24,10 @@ Click Below Link for Demo
 
 Please send me your support Request and feedback  <a href="http://www.magerips.com/index.php/contacts/">Contact Us</a> for any new features.
 
-== Check Out our Premium Plugins ==
+<strong>Check Out our Premium Plugins</strong>
 
-* <a href="http://codecanyon.net/item/whatsapp-sharing-for-woocommerce/10643908" title="WhatsApp Sharing For WooCommerce ">WhatsApp Sharing For WooCommerce </a>
-* <a href="http://codecanyon.net/item/product-price-info-for-woocommerce/11117084" title="Product Price Info For WooCommerce ">Product Price Info For WooCommerce </a>
+<a href="http://codecanyon.net/item/whatsapp-sharing-for-woocommerce/10643908" title="WhatsApp Sharing For WooCommerce ">WhatsApp Sharing For WooCommerce </a>
+<a href="http://codecanyon.net/item/product-price-info-for-woocommerce/11117084" title="Product Price Info For WooCommerce ">Product Price Info For WooCommerce </a>
 
 = Features: =
 
