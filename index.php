@@ -5,7 +5,7 @@
   Author: Magerips
   Author URI: http://www.magerips.com
   Plugin URI: http://www.magerips.com
-  Version: 1.0
+  Version: 1.1
   Requires at least: 3.0.0
   Tested up to: 4.1 
  */

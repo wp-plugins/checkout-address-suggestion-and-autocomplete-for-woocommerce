@@ -50,9 +50,8 @@ To install Checkout Address suggestion and Autocomplete for woocommerce, follow 
 
 == Upgrade Notice ==
 
-= 1.0 =
-* First stable version released.
-
+= 1.1 =
+* Solve some issue for specific country
 
 == Screenshots ==
 
@@ -66,7 +65,6 @@ To install Checkout Address suggestion and Autocomplete for woocommerce, follow 
 = 1.0 =
 * Initial Release
 
-== Upgrade Notice ==
+= 1.1 =
+* Solve some issue for specific country
 
-= 1.0 =
-* Initial Release
