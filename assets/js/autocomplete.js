@@ -97,6 +97,12 @@ RpCheckoutAutocomplete.method = {
                         if(f == "street_number")
                         {
                             this.streetNumber = place.address_components[field]['short_name'];
+                        }else{
+                            
+                            if(document.getElementById("billing_country").value=="KR"){
+                                this.streetNumber=place.address_components[0]['short_name'];
+                                this.streetNumber+=","+place.address_components[1]['long_name'];
+                            }
                         }
 
                         var prop = this.component_form[f][1];
@@ -282,6 +288,12 @@ RpCheckoutAutocomplete_shipping.method = {
                         if(f == "street_number")
                         {
                             this.streetNumber = place.address_components[field]['short_name'];
+                        }else{
+                            
+                            if(document.getElementById("shipping_country").value=="KR"){
+                                this.streetNumber=place.address_components[0]['short_name'];
+                                this.streetNumber+=","+place.address_components[1]['long_name'];
+                            }
                         }
 
                         var prop = this.component_form[f][1];
