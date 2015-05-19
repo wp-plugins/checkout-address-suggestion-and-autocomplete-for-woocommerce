@@ -4,7 +4,7 @@ Tags: WooCommerce,Checkout,Address Autosuggestion,Address AutoComplete, Checkout
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=rpmagerips@gmail.com&item_name=Donation+WooCommerce+checkout+autocomplete
 Requires at least: 3.0.0
 Tested up to: 4.0
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/quick-guide-gplv3.html
 
@@ -53,11 +53,14 @@ To install Checkout Address suggestion and Autocomplete for woocommerce, follow 
 = 1.1 =
 * Solve some issue for specific country
 
+= 1.2 =
+* Solve google js issue for other pages
+
+
+
 == Screenshots ==
 
 1. * Checkout Address Suggestion And Autocomplete For Woocommerce *
-
-
 
 
 == Changelog ==
@@ -67,4 +70,7 @@ To install Checkout Address suggestion and Autocomplete for woocommerce, follow 
 
 = 1.1 =
 * Solve some issue for specific country
+
+= 1.2 =
+* Solve google js issue for other pages
 

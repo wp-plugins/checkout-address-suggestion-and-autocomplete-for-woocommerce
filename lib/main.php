@@ -25,10 +25,14 @@ class rp_checkout_address_suggestion {
     
 
     public function wp_head() {
-        wp_enqueue_script('google-autocomplete', "https://maps.googleapis.com/maps/api/js?v=3&libraries=places");
+        if(!is_checkout())
+            return;
         
+        wp_enqueue_script('google-autocomplete', "https://maps.googleapis.com/maps/api/js?v=3&libraries=places");
     }
 
 }
-
-new rp_checkout_address_suggestion();
+/* load plugin if woocommerce plugin is activated */
+if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins')))) {
+    new rp_checkout_address_suggestion();
+}
