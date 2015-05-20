@@ -19,6 +19,8 @@ class rp_checkout_address_suggestion {
         ?>
         <!-- Autocomplete script by magerips.com -->
         <?php 
+        if(!is_checkout())
+            return;
         wp_enqueue_script('rp-autocomplete', self::$plugin_url . "assets/js/autocomplete.js");
     }
 
